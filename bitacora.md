@@ -1,5 +1,21 @@
 # BITÁCORA
 
+## Actividad 1: La lista de als siete carencias
+
+## Punto de partida
+
+1. Se conecta con el usuario "postgres" y tiene contraseña, aunque puede configurarse para no necesitarla. En una situación
+real, esto puede dejar al servidor vulnerable a ciberataques al estar completamente abierto.
+
+2. Es necesario arrancar Apache y MySQL en XAMPP. En una situación real, es muy inconveniente tener que arrancar el servidor manualmente cada vezz que lo reiniciemos.
+
+3. Los errores se registran en el "error.log" de Apache, no en la consola. Aunque esto no afecte a los usuarios directamente,
+no es práctico cuando tienes que trabajar con varias personas.
+
+4. Ambos tenemos PHP 8.2.12 y Node v24.15.0 (aunque podría ser una versión distinta). En una situación real, el programa podría funcional mar o ser inutilizable para un usuario con versiones diferentes.
+
+## Actividad 2: Las dos máquinas del grupo
+
 ## 1.- Preparación de la máquina
 - Se desplegó una máquina virtual mínima en Proxmox.
 - Se ejecutó la actualización completa del sistema operativo y se instalaron herramientas las esenciales.
